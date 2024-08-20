@@ -28,4 +28,9 @@ Le jeu utilise un algorithme MIN-MAX pour simuler l'intelligence d'un adversaire
 
 Le jeu Virus MIN-MAX a été développé en Python. Ce jeu a été développé pour explorer les possibilités de l'intelligence artificielle dans les jeux de société.
 
+# Requirements:
+
+- numpy==2.0.1
+- pygame==2.6.0
+
 
