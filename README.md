@@ -1,5 +1,5 @@
-# Virus: Un jeu de stratégie et de contamination
-Ce jeu de société abstrait pour deux joueurs met au défi votre stratégie et votre capacité à contrôler le territoire. Le but du jeu est de convertir le plus de pions adverses à votre propre couleur en les contaminant.
+# Virus MIN-MAX: Un jeu de stratégie et de contamination
+Ce jeu met au défi votre stratégie et votre capacité à contrôler le territoire. On joue ici contre une IA(Basé sur l'algorithme MIN-MAX). Le but du jeu est de convertir le plus de pions adverses à votre propre couleur en les contaminant.
 
 ## Le principe du jeu :
 
@@ -19,6 +19,13 @@ Le jeu de virus nécessite une stratégie réfléchie. Les joueurs doivent :
 - **Planifier leur placement de pions** : Ils doivent choisir des positions stratégiques pour maximiser la contamination et bloquer les mouvements adverses.
 - **Créer des chaînes de pions :** En plaçant des pions adjacents de la même couleur, les joueurs peuvent créer des chaînes de contamination, permettant de convertir rapidement les pions adverses.
 - **Isoler les pions adverses :** En entourant les pions adverses, les joueurs peuvent les empêcher de contaminer d'autres pions.
-- **En résumé :** Le jeu de virus est un jeu de stratégie et de contrôle de territoire où la contamination joue un rôle crucial. Les joueurs doivent réfléchir à leurs placements de pions pour maximiser leur influence et convertir les pions adverses à leur couleur.
 
-Ce jeu a été développé pour explorer les possibilités de l'intelligence artificielle dans les jeux de société.
+# L'intelligence artificielle :
+
+Le jeu utilise un algorithme MIN-MAX pour simuler l'intelligence d'un adversaire. L'IA analyse les mouvements possibles et choisit celui qui maximise ses chances de gagner.
+
+# Développement :
+
+Le jeu Virus MIN-MAX a été développé en Python. Ce jeu a été développé pour explorer les possibilités de l'intelligence artificielle dans les jeux de société.
+
+
