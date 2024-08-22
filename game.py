@@ -263,11 +263,14 @@ class Game:
             self._board = self._board_manager.initBoard(self._player.tile_type, self._ia.tile_type)
             # On signale que la partie n'est plus terminée
             self._is_gameEnd = False
+            pygame.mixer.music.stop()
             self._background_song_activate = False  
             
         exit_button.draw(screen)
         if exit_button.clicked() == True:
             self._is_running = False
+            pygame.mixer.music.stop()
+            self._background_song_activate = False
             
     def setSoundPaths(self, game_over_sound_path, game_win_sound_path,  invalide_move_sound_path, eat_sound_path):
         self._game_over_sound_path = game_over_sound_path
