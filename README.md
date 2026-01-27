@@ -1,36 +1,24 @@
-# Virus MIN-MAX: Un jeu de stratégie et de contamination
-Ce jeu met au défi votre stratégie et votre capacité à contrôler le territoire. On joue ici contre une IA(Basé sur l'algorithme MIN-MAX). Le but du jeu est de convertir le plus de pions adverses à votre propre couleur en les contaminant.
+# Virus MIN-MAX: A Strategy and Contamination Game
+This game challenges your strategy and your ability to control territory. Here you play against an AI (Based on the MIN-MAX algorithm). The goal of the game is to convert as many opponent pieces as possible to your own color by contaminating them.
+## Game Principle:
+**Grid**: The game takes place on a square grid of variable size.
+**Pieces**: Each player has a color of pieces, and the goal is to convert as many opponent pieces to their own color as possible.
+**Contamination**: A piece can contaminate adjacent opponent pieces (up to 8 squares around it).
+**Piece Placement**: A player can place a piece on an empty square only if at least one piece of their color is located in the 8 adjacent squares to that square.
+## Game Objective:
+The objective of the game is to control as much territory as possible by contaminating opponent pieces. The player who has the most pieces of their color at the end of the game wins the match.
+**Some Strategies**:
+The virus game requires thoughtful strategy. Players must:
 
-## Le principe du jeu :
+**Plan their piece placement**: They must choose strategic positions to maximize contamination and block opponent moves.
+**Create piece chains**: By placing adjacent pieces of the same color, players can create contamination chains, allowing them to quickly convert opponent pieces.
+**Isolate opponent pieces**: By surrounding opponent pieces, players can prevent them from contaminating other pieces.
 
-**Grille** : Le jeu se déroule sur une grille carrée, de taille variable.
-**Pions** : Chaque joueur possède une couleur de pions, et le but est de convertir le plus de pions adverses à sa propre couleur.
-**Contamination** : Un pion peut contaminer les pions adverses adjacents (les 8 cases au maximum autour de lui).
-**Placement de pions** : Un joueur peut placer un pion sur une case vide uniquement si au moins un pion de sa couleur se trouve dans les 8 cases adjacentes à cette case.
-
-## Le but du jeu :
-
-Le but du jeu est de contrôler le plus de territoire possible en contaminant les pions adverses. Le joueur qui a le plus de pions de sa couleur à la fin du jeu remporte la partie.
-
-**Quelques stratégies :**
-
-Le jeu de virus nécessite une stratégie réfléchie. Les joueurs doivent :
-
-- **Planifier leur placement de pions** : Ils doivent choisir des positions stratégiques pour maximiser la contamination et bloquer les mouvements adverses.
-- **Créer des chaînes de pions :** En plaçant des pions adjacents de la même couleur, les joueurs peuvent créer des chaînes de contamination, permettant de convertir rapidement les pions adverses.
-- **Isoler les pions adverses :** En entourant les pions adverses, les joueurs peuvent les empêcher de contaminer d'autres pions.
-
-# L'intelligence artificielle :
-
-Le jeu utilise un algorithme MIN-MAX pour simuler l'intelligence d'un adversaire. L'IA analyse les mouvements possibles et choisit celui qui maximise ses chances de gagner.
-
-# Développement :
-
-Le jeu Virus MIN-MAX a été développé en Python. Ce jeu a été développé pour explorer les possibilités de l'intelligence artificielle dans les jeux de société.
-
+# Artificial Intelligence:
+The game uses a MIN-MAX algorithm to simulate an opponent's intelligence. The AI analyzes possible moves and chooses the one that maximizes its chances of winning.
+Development:
+The Virus MIN-MAX game was developed in Python. This game was created to explore the possibilities of artificial intelligence in board games.
 # Requirements:
 
-- numpy==2.0.1
-- pygame==2.6.0
-
-
+numpy==2.0.1
+pygame==2.6.0
