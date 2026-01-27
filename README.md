@@ -27,4 +27,5 @@ The Virus MIN-MAX game was developed in Python. This game was created to explore
 # Requirements:
 
 numpy==2.0.1
+
 pygame==2.6.0
